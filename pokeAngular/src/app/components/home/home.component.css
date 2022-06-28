@@ -3,11 +3,24 @@
     background-image: url("../../../assets/images/home-desktop.png");
     background-repeat: no-repeat;
     background-position: center;
-    display: flex
-;}
-.home-container .btn{
-    margin: auto auto;
-    background-color: aqua;
     display: flex;
-    
+}
+.btn {
+    margin: 200px auto auto auto;
+    padding: 5px 40px;
+    font-size: 1.7rem;
+    font-family: 'Luckiest Guy', cursive;
+    color: #fff;
+    background-color: #1B6EC2;
+    border-radius: 0px;
+    transition: 0.5s;
+    transform: skewX(-15deg);
+    box-shadow: 6px 6px 0 #0d4074;
+}
+.btn:focus{
+    outline: none;
+}
+.btn:hover{
+    transition: 0.5s;
+    box-shadow: 12px 12px 0 #0d4074;
 }
